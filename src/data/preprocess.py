@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 import wandb
 
-wandb.login(key="f505fc5086438e923a5d468c900a748275a8ff7c", relogin=True)
+wandb.login(key="41eaef54f8dd6ac2d3b892988e6ab0f5c40331f8", relogin=True)
 # --- Argumentos ---
 parser = argparse.ArgumentParser()
 parser.add_argument('--IdExecution', type=str, default="testing console", help='ID of the execution')
